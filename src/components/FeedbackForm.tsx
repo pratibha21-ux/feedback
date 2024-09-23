@@ -143,7 +143,7 @@ const FeedbackForm: React.FC = () => {
           <label htmlFor="email" className={styles.textLabel}>
             Email address
           </label>
-          <p className={styles.emailHint}>Only if you want to hear more from us.</p>
+          {/* <p className={styles.emailHint}>Only if you want to hear more from us.</p> */}
           <input
             type="email"
             id="email"
